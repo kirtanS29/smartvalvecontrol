@@ -1,0 +1,91 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .status-card, .control-card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .status-card {
+    background-color: #e6f9e6;
+    border: 2px solid #4caf50;
+  }
+  
+  .control-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+  }
+  
+  .status-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .status-text {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .status-text.safe {
+    color: green;
+  }
+  
+  .status-text.danger {
+    color: red;
+  }
+  
+  .valve-status {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .valve-status .open {
+    color: green;
+  }
+  
+  .valve-status .closed {
+    color: red;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 120px;
+  }
+  
+  .btn:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn:last-child {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn:hover {
+    filter: brightness(90%);
+  }
+  
